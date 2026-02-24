@@ -1,22 +1,27 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Personal Calculator</title>
+    <title>Simple BMI Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1>Personal Calculator</h1>
+    <div class="container">
+        <h2>BMI Calculator</h2>
+        
+        <label for="mass">Mass (kg):</label>
+        <input type="number" id="mass" placeholder="e.g. 70">
 
-<form id="calculatorForm">
-    <!-- Add input fields here -->
-</form>
+        <label for="height">Height (m):</label>
+        <input type="number" id="height" step="0.01" placeholder="e.g. 1.75">
 
-<div id="output">
-    <!-- Results will be displayed here -->
-</div>
+        <button onclick="calculateBMI()">Calculate</button>
 
-<script src="script.js"></script>
+        <div id="output">
+            Your result will appear here.
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

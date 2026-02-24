@@ -62,4 +62,4 @@ Yes , i used AI
 I used it for:
 1.Making codes on html,css,javascript
 ## 10. Reflection
-From this task i didn't learn something.Because i knew it before.
+From this task i didn't learn some information about javascript.
